@@ -1,0 +1,46 @@
+.AddtaskText{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+    -fx-fill: rgba(39, 39, 39, 0.75);
+}
+
+.StartDateText{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-fill: rgba(39, 39, 39, 0.75);
+}
+
+.EndDateText{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-fill: rgba(39, 39, 39, 0.75);
+
+}
+
+.donebtn{
+    -fx-background-color: #94bde4;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 1, 1);
+    -fx-cursor: hand;
+}
+TextField{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 16;
+    -fx-text-fill: rgba(39, 39, 39, 0.75);
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropshadow(three-pass-box, rgb(142, 142, 142), 1, 0, .5, 0.5);
+}
+
+DatePicker{
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 16;
+    -fx-text-fill: rgba(39, 39, 39, 0.75);
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-effect: dropshadow(three-pass-box, rgb(142, 142, 142), 1, 0, .5, 0.5);
+
+}

@@ -1,0 +1,35 @@
+.taskslabel{
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 25;
+    -fx-text-fill: #393939;
+}
+.deadlineLabel{
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 20;
+    -fx-text-fill: #393939;
+}
+
+.status {
+    -fx-pref-width: 136;
+    -fx-pref-height: 32;
+    -fx-background-color: #b6dbe8;
+    -fx-border-radius: 15;
+
+    -fx-alignment: center; /* To center the text */
+}
+
+Circle {
+    -fx-fill: #387ac8;
+    -fx-stroke-width: 0;
+}
+
+.statuslabel{
+    -fx-text-fill: #3c3c3c; /* For text color */
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 15;
+    -fx-text-alignment: center;
+}
+
+CheckBox {
+    -fx-background-color: #ffffff;
+}

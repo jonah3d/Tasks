@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1045.0" prefWidth="1443.0" stylesheets="@../CSS/TaskmanagerviewStylesheet.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jonah3d.tasks.Controllers.TaskmanagerviewController">
+    <VBox fx:id="container_VB" layoutX="59.33333206176758" layoutY="41.33333206176758" styleClass="container" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="59.0" AnchorPane.rightAnchor="63.0" AnchorPane.topAnchor="41.0">
+        <HBox fx:id="header_container_HB" prefHeight="100.0" prefWidth="200.0" styleClass="header_container">
+            <Text fx:id="Task_Text" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Tasks_text" text="Tasks" />
+            <Button fx:id="delete_btn" mnemonicParsing="false" styleClass="delete_button" text="Delete">
+            <HBox.margin>
+               <Insets left="875.0" right="40.0" />
+            </HBox.margin></Button>
+            <Button fx:id="AddTask_btn" mnemonicParsing="false" prefWidth="163.0" styleClass="Addtask_button" text="Add Task">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin></Button>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+        </HBox>
+      <HBox fx:id="listview_headers_HB" prefHeight="73.0" prefWidth="1321.0" styleClass="listviewheader_container">
+         <children>
+            <Text fx:id="taskname_text" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="HC_TaskName_Text" text="Task Name" />
+            <Text fx:id="deadline_text" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="HC_Deadline_Text" text="Deadline">
+               <HBox.margin>
+                  <Insets left="750.0" right="160.0" />
+               </HBox.margin>
+            </Text>
+            <Text fx:id="status_text" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="HC_Status_Text" text="Status" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+      </HBox>
+      <ListView fx:id="tasksview_listview" prefHeight="863.0" prefWidth="1321.0" styleClass="taskview" />
+        <FontAwesomeIconView fx:id="down_icon" glyphName="ARROW_DOWN" size="15" styleClass="down_arrow_icon">
+         <VBox.margin>
+            <Insets left="660.0" />
+         </VBox.margin></FontAwesomeIconView>
+    </VBox>
+</AnchorPane>

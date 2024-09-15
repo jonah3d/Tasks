@@ -1,0 +1,81 @@
+*{
+    -fx-padding: 0;
+    -fx-margin: 0;
+}
+
+.container{
+    -fx-background-color: #f4f4f4;
+
+}
+
+.header_container{
+    -fx-background-color: #f4f4f4;
+
+}
+
+.Tasks_text{
+    -fx-font-family: Georgia;
+    -fx-font-size: 50;
+    -fx-font-style: normal;
+    -fx-fill: black;
+}
+
+.delete_button{
+    -fx-background-color: #F57070;
+    -fx-pref-width: 140;
+    -fx-pref-height: 48;
+    -fx-font-size: 18;
+    -fx-font-weight: normal;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI";
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.16), 5, 0, 0, 5);
+    -fx-cursor: hand;
+}
+
+.Addtask_button{
+    -fx-background-color: #60D760;
+    -fx-pref-width: 140;
+    -fx-pref-height: 48;
+    -fx-font-size: 18;
+    -fx-font-weight: normal;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI";
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.16), 5, 0, 0, 5);
+    -fx-cursor: hand;
+}
+
+.listviewheader_container{
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 5px;
+}
+
+
+.HC_TaskName_Text{
+    -fx-font-family: Cambria;
+    -fx-font-size: 25;
+    -fx-font-style: normal;
+    -fx-fill: #898989;
+}
+
+.HC_Deadline_Text{
+    -fx-font-family: Cambria;
+    -fx-font-size: 25;
+    -fx-font-style: normal;
+    -fx-fill: #898989;
+}
+
+.HC_Status_Text{
+    -fx-font-family: Cambria;
+    -fx-font-size: 25;
+    -fx-font-style: normal;
+    -fx-fill: #898989;
+}
+
+.taskview{
+    -fx-background-color: #f4f4f4;
+}
+
+.down_arrow_icon FontAwesomIconView{
+    -fx-fill: #000000;
+    -fx-start-margin: 50%;
+}

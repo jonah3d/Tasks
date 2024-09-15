@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+
+<AnchorPane prefHeight="100.0" prefWidth="1321.0" stylesheets="@../CSS/TaskrowController.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jonah3d.tasks.Controllers.TaskrowController">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="15.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <CheckBox mnemonicParsing="false" />
+            <Label styleClass="taskslabel" text="To-do list with time management " />
+            <Label styleClass="deadlineLabel" text="02 Dec 2024">
+               <HBox.margin>
+                  <Insets left="450.0" />
+               </HBox.margin>
+            </Label>
+            <Pane prefHeight="32.0" prefWidth="132.0" styleClass="status">
+               <HBox.margin>
+                  <Insets left="35.0" />
+               </HBox.margin>
+               <children>
+                  <Circle fill="DODGERBLUE" layoutX="26.0" layoutY="24.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Label layoutX="54.0" layoutY="15.0" styleClass="statuslabel" text="In Progress" />
+               </children>
+            </Pane>
+         </children>
+         <padding>
+            <Insets bottom="26.0" left="50.0" top="26.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>
